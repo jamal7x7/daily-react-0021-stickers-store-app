@@ -7,33 +7,33 @@ const Header = () => (
   </header>
 )
 
-const FlashCards = () => (
+const Items = () => (
   <div className=' flash-cards '>
     <div className='svg-input-wrap'>
 
-        Menu
+        Items
 
       </div>
   </div>
 )
 
-const StudyPlan = () => (
+const Menu = () => (
   <div className='study-plan'>
     <div className='svg-input-wrap'>
 
-      Items
+      Menu
 
     </div>
   </div>
 )
 
-class FlashCardsApp extends Component {
+class StickersStoreApp extends Component {
   render () {
     return (
       <div className='flash-cards-con'>
 
-        <StudyPlan />
-        <FlashCards />
+        <Menu />
+        <Items />
 
       </div>
     )
@@ -43,7 +43,7 @@ class FlashCardsApp extends Component {
 const App = (props) => (
   <div className='App'>
     <Header />
-    <FlashCardsApp />
+    <StickersStoreApp />
 
   </div>
 )
